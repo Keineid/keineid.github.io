@@ -1,0 +1,22 @@
+# Site settings
+title: Keineid's Sky
+header-img: img/home-bg.jpg
+email: nms@keineid.com
+copyright_name: Keineid Gaming
+description: "A blog about exploring the endless depths of No Man's Sky. Strange creatures, dangerous planets, and daring journeys into the unknown are documented here."
+baseurl: ""
+url: "http://nms.keineid.com"
+email_username: nms@keineid.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+google_tracking_id: UA-82193529-1
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
